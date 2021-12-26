@@ -14,7 +14,7 @@ CMAIN:
     MOV BL, [ESI]
     MOV DL, 0x03
     AND BL, DL
-    SHL BL, 6
+    SHL BL, 4
     INC ESI
     MOV AL, [ESI]
     AND AL, 0xF0
@@ -53,7 +53,7 @@ CMAIN:
     MOV BL, [ESI]
     MOV DL, 0x03
     AND BL, DL
-    SHL BL, 6
+    SHL BL, 4
     INC ESI
     MOV AL, [ESI]
     AND AL, 0xF0
